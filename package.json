@@ -10,10 +10,15 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@notionhq/client": "^2.2.3",
+    "css": "^3.0.0",
+    "dotenv": "^16.0.3",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwind": "^4.0.0"
   }
 }
