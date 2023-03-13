@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-export default function modal({ data, open, onClose }) {
+export default function Modal({ data, open, onClose }) {
   if (!open) return null;
 
   const date = new Date(data.properties.doneDate.date.start);

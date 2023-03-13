@@ -92,6 +92,7 @@ export default function Home({ books, test }) {
               target="_blank"
               href="https://github.com/yunjoa/bookcheck"
               className=" mr-4 hover:underline"
+              rel="noopener noreferrer"
             >
               Git
             </a>
@@ -99,6 +100,7 @@ export default function Home({ books, test }) {
               target="_blank"
               href="https://joayun.notion.site/faabbf36bcce41dc805ba4b9d42ddf7b"
               className=" mr-4 hover:underline"
+              rel="noopener noreferrer"
             >
               Book Club
             </a>
