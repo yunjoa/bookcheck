@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import React, { useState } from "react";
 
-export default function Modal({ data, open, onClose }) {
+export default function Modal({ data, open }) {
   if (!open) return null;
 
   const date = new Date(data.properties.doneDate.date.start);
@@ -30,8 +30,8 @@ export default function Modal({ data, open, onClose }) {
     <>
       <div
         className="modal__overlay w-full h-full absolute top-0 left-0 bg-neutral-800/80  z-20"
-        onClick={onClose}
-        onClose={() => setIsOpen(false)}
+        // onClick={onClose}
+        // onClose={() => setIsOpen(false)}
       >
         <div className="modal">
           <div className="modal__content w-4/5 h-4/5 shadow-md bg-white dark:bg-zinc-900 rounded-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-10 overflow-y-auto z-30 ">
