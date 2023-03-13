@@ -7,7 +7,7 @@ export default function Modal({ data, open }) {
   const date = new Date(data.properties.doneDate.date.start);
   const imgSrc = data.properties.책표지.files[0].external.url;
 
-  const [modalOn, setModalOn] = useState(true);
+  // const [modalOn, setModalOn] = useState(true);
 
   // useEffect(() => {
   //   window.addEventListener("scroll", handleScroll);
