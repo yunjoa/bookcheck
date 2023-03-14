@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Modal from "./modal";
 
 export default function Booklist({ data }) {
   const [modalOn, setModalOn] = useState(false);
