@@ -3,7 +3,7 @@ import Booklist from "./components/booklist";
 import DarkModeBtn from "./components/darkModeBtn";
 import { TOKEN, DATABASE_ID } from "../config";
 
-export default function Home({ books, test }) {
+export default function Home({ books }) {
   let thisMonth = new Date().getMonth() + 1;
   let thisYear = new Date().getFullYear();
   let MonthlyReading = 0;
@@ -112,7 +112,7 @@ export default function Home({ books, test }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   //notion API에서
   const options = {
     method: "POST",

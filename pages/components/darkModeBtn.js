@@ -2,7 +2,7 @@ import { useTheme } from "next-themes";
 import React, { useEffect } from "react";
 
 export default function DarkModeBtn() {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme(0);
 
   useEffect(() => setTheme("theme" === "dark" ? "light" : "dark"), []);
   return (
