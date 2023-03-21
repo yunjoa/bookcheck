@@ -28,7 +28,7 @@ export default function Modal({ data, open }) {
 
   return (
     <>
-      <div
+      {/* <div
         className="modal__overlay w-full h-full absolute top-0 left-0 bg-neutral-800/80  z-20"
         // onClick={onClose}
         // onClose={() => setIsOpen(false)}
@@ -76,7 +76,7 @@ export default function Modal({ data, open }) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
