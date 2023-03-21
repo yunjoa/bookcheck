@@ -5,7 +5,7 @@ export default function DarkModeBtn() {
   const { theme, setTheme } = useTheme(0);
 
   useEffect(() => {
-    setTheme("theme" === "dark" ? "light" : "dark");
+    setTheme("theme" === "light" ? "light" : "dark");
     //eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
