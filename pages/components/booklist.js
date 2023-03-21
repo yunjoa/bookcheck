@@ -31,7 +31,7 @@ export default function Booklist({ data }) {
             setModalOn(modalOn == true);
           }}
         ></div>
-        {/* <Modal data={data} open={isOpen} /> */}
+        <Modal data={data} open={isOpen} />
       </>
     </>
   );
